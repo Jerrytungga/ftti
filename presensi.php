@@ -129,8 +129,7 @@ if ($angkatan == $cek_batch['batch']) {
         if ($inputpresensi1) {
           echo notice(2);
         } else {
-          $cekdata = $_SESSION['cek_data'] = '<p class="text-danger"><strong>Hanya bisa 1 kali Presensi!</strong></p>';
-          echo notice(3);
+          echo notice(4);
         }
       }
     }
@@ -199,8 +198,8 @@ $list = mysqli_fetch_array($jadwal);
 
     @media screen and (max-width: 575px) {
       canvas {
-        height: 170px;
-        width: 250px;
+        height: 100px;
+        width: 50px;
         border-radius: 10px;
 
       }
@@ -509,7 +508,7 @@ function notice($type)
   } elseif ($type == 3) {
     return "<audio autoplay><source src='" . 'music/beep.mp3' . "'></audio>";
   } elseif ($type == 4) {
-    return "<audio autoplay><source src='" . 'music/error.wav' . "'></audio>";
+    return "<audio autoplay><source src='" . 'music/Akses_ditolak.mp3' . "'></audio>";
   }
 }
 ?>

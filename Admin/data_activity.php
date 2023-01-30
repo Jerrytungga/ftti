@@ -54,7 +54,7 @@ include 'head.php';
         <div class="header-advance-area">
             <?php
             include 'menu_header.php';
-            include 'mode_mobile.php';
+            // include 'mode_mobile.php';
             ?>
             <div class="breadcome-area">
                 <div class="container-fluid">
@@ -288,7 +288,7 @@ include 'head.php';
     <script src="js/main.js"></script>
     <!-- tawk chat JS
 		============================================ -->
-    <script src="js/tawk-chat.js"></script>
+    <!-- <script src="js/tawk-chat.js"></script> -->
 </body>
 
 </html>

@@ -25,7 +25,7 @@ if (isset($_POST['buka'])) {
     <img src="img/logo.png" alt="" height="300" width="300">
     <form action="" method="POST">
       <h2 class="m-lg-5">Pleace select batch to presensi</h2>
-      <select name="batch" class="form-control m-lg-5 col-4">
+      <select name="batch" class="form-control m-5 col-4">
         <option value="">Select Batch</option>
         <?php
         $abl_angkatan = mysqli_query($conn, "SELECT angkatan FROM `tb_angkatan` ");
